@@ -36,3 +36,117 @@
     transform: rotate(360deg);
   }
 }
+
+.recipe {
+  background-image: linear-gradient(0deg, rgb(71, 59, 123) 0%, rgb(53, 132, 167) 51%, #30D2BE 100%);
+  width: 300px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 24px 6px;
+  border-radius: 10px;
+  box-shadow: 2px 4px 10px 1px rgba(71, 59, 123, .5);
+  color: #fff;
+  padding: 12px;
+}
+
+
+.recipesContainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin: 0 30px 50px 30px;
+}
+
+
+ol {
+  text-align: left;
+  list-style: disc;
+}
+
+.recipeDetails {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 6px;
+}
+
+.row * {
+  margin: 0;
+  padding: 0;
+}
+
+.recipe img{
+  width: 100%;
+  height: auto;
+  margin: 24px 0 12px 0;
+  box-shadow: 0px 0px 10px 4px rgba(43, 112, 137, 1);
+}
+
+.mainTitle {
+  width: 85%;
+  height: 100px;
+  background-image: linear-gradient(90deg, #3d3393 0%, #2b76b9 37%, #2cacd1 65%, #35eb93 100%);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  margin: 40px auto;
+  box-shadow: 2px 4px 10px 1px rgba(71, 59, 123, .5);
+  border-radius: 10px;
+}
+
+.search-form {
+  width: 85%;
+  height: 60px;
+  background-image: linear-gradient(90deg, #3d3393 0%, #2b76b9 37%, #2cacd1 65%, #35eb93 100%);
+  padding: 12px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  margin: 40px auto;
+  box-shadow: 2px 4px 10px 1px rgba(71, 59, 123, .5);
+  border-radius: 10px;
+}
+
+.search-bar {
+  height: 40px;
+  width: 50%;
+  border: 2px solid rgb(257, 255, 255);
+  border-radius: 8px 0 0 8px;
+  border-right: none;
+  box-shadow: none;
+  outline: none;
+  background: rgba(255,255,255,.4);
+  font-size: 14px;
+  padding-left: 24px;
+}
+
+.search-button{
+    background: #fff;
+    border: none;
+    height: 46px;
+    border-radius: 0 8px 8px 0;
+    font-size: 18px;
+    color: #3b3c97;
+    font-weight: bold;
+    padding: 0 12px;
+}
